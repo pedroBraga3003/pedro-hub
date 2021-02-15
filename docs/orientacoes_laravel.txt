@@ -1,0 +1,16 @@
+
+:: clientes
+ ->php artisan make:migration create_clientes_table --create=clientes
+ -> php artisan make:controller ClientesController --resource --model=Cliente
+
+
+:: Icones
+ ->https://icons.getbootstrap.com/ 
+
+:: PDF
+ ->https://blog.especializati.com.br/gerar-pdf-no-laravel-com-dompdf/ 
+ ->https://www.itsolutionstuff.com/post/how-to-make-pdf-file-in-laravel-7example.html
+ ->https://codingdriver.com/how-to-generate-html-to-pdf-in-laravel-7.html
+:: dompdf
+ ->composer require barryvdh/laravel-dompdf 
+

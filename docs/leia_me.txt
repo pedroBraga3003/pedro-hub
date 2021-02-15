@@ -1,0 +1,13 @@
+:: Comandos para iniciar o projeto
+ ->Composer - caso update nao dê certo rodar o install
+ 	->'composer update' ou 'composer install'
+ ->Key generate -  gerar a chave do projeto laravel
+  ->php artisan key:generate  
+ ->Artisan serve - para inicializar o projeto e testar no navegador
+  ->php artisan serve
+ ->Limpar cache
+  ->php artisan cache:clear 
+
+:: Orientações
+ -> na pasta docs tem o arquivo .env de exemplo
+
